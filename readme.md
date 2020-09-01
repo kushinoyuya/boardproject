@@ -22,3 +22,16 @@ includeモジュールを追加
 >    path('admin/', admin.site.urls),
 >    path('', include('boardapp.urls')),
 >]
+
+5. 管理者アカウント設定
+- $ python3 manage.py createsuperuser
+Username (leave blank to use 'kushino'): 
+Email address: 
+Password: 
+Password (again):
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+
+6. テーブル作成
+- $ python3 manage.py makemigrations
+- $ python3 manage.py migrate
