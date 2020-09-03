@@ -29,3 +29,7 @@ def loginfunc(request):
         else:
             return redirect('login')
     return render(request, 'login.html')
+
+
+def listfunc(request):
+    return render(request, 'list.html')
