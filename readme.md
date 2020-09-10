@@ -35,3 +35,10 @@ Superuser created successfully.
 6. テーブル作成
 - $ python3 manage.py makemigrations
 - $ python3 manage.py migrate
+
+7. 仮想環境の設定
+- $ mkdir overview
+- $ cd overview
+- $ python3 -m venv env
+- $ source env/bin/actvate
+- (env)$
